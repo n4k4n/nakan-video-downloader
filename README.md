@@ -52,7 +52,7 @@ pip install -r requirements-build.txt
 python build.py
 ```
 
-Pushing a tag like `v1.0.0` builds Windows and macOS versions on GitHub Actions and attaches them to a Release.
+Pushing to `main` (or a tag like `v1.0.0`) builds Windows and macOS versions on GitHub Actions and attaches them to a Release named after the VERSION in the code.
 
 ## Credits
 
